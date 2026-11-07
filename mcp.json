@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "voiceuni": {
+      "url": "https://api.voiceuni.com/mcp",
+      "headers": {
+        "Authorization": "Bearer ${VOICEUNI_API_KEY}"
+      }
+    }
+  }
+}

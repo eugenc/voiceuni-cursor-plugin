@@ -1,0 +1,27 @@
+# Secrets and credentials — never commit
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*credentials*
+*secret*
+*token*
+
+# Local / OS junk
+.DS_Store
+Thumbs.db
+*.log
+logs/
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+.idea/
+.vscode/
+*.swp
+*~
+
+# Local plugin install / Cursor state
+.cursor/
+!.cursor-plugin/

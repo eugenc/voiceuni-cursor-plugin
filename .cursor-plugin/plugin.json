@@ -1,0 +1,36 @@
+{
+  "name": "voiceuni",
+  "version": "0.1.0",
+  "description": "Give AI agents real-world tools: phone, inbox, chat, CRM, tasks and a desk.",
+  "author": {
+    "name": "VoiceUni",
+    "email": "hello@voiceuni.com"
+  },
+  "keywords": [
+    "voiceuni",
+    "mcp",
+    "crm",
+    "communications",
+    "tasks",
+    "desk",
+    "phone",
+    "inbox"
+  ],
+  "logo": "assets/logo.png",
+  "license": "MIT",
+  "homepage": "https://www.voiceuni.com",
+  "repository": "https://github.com/eugenc/voiceuni-cursor-plugin",
+  "variables": {
+    "type": "object",
+    "properties": {
+      "VOICEUNI_API_KEY": {
+        "type": "string",
+        "title": "VoiceUni API key",
+        "description": "Your scoped VoiceUni MCP access key; never commit its value."
+      }
+    },
+    "required": [
+      "VOICEUNI_API_KEY"
+    ]
+  }
+}
